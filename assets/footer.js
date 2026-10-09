@@ -42,8 +42,7 @@
                 <li><small>${AR ? 'المقر الرئيسي' : 'Head office'}</small><span>${T.addr}</span></li></ul></div>
         </div>
         <div class="fbar">
-            <span>${T.copy}</span><span>${T.meta}</span>
-            <span class="fnote">${T.note} <a href="https://www.behance.net/rahaf_malharbi" target="_blank" rel="noopener">${T.credit}</a></span>
+            <span>${T.copy}</span>
             <a class="flang" href="${other}" hreflang="${AR ? 'en' : 'ar'}">${T.lang}</a>
             <a class="ftop" href="#">${T.top} ↑</a>
         </div>

@@ -212,7 +212,6 @@ html { overflow-x: clip; }
 .fbar { display:flex; flex-wrap:wrap; gap: 14px 36px; align-items:center; justify-content:space-between; padding: 22px var(--pad); border-top: 1px solid var(--ink-faint); font-family: var(--mono); font-size:.72rem; letter-spacing:.1em; color: var(--ink-dim); }
 .fbar a { color: var(--ink); text-decoration:none; border-bottom:1px solid var(--ink-faint); padding-bottom:1px; transition: color .2s, border-color .2s; }
 .fbar a:hover { color: var(--accent); border-color: var(--accent); }
-.fnote { flex: 1 1 340px; letter-spacing:.02em; font-family: var(--sans); font-size:.82rem; }
 .fruler { height: 18px; margin: 0 var(--pad) 26px; background-image: repeating-linear-gradient(90deg, var(--ink-faint) 0 1px, transparent 1px 10px), repeating-linear-gradient(90deg, var(--ink-dim) 0 1px, transparent 1px 100px); background-size: 100% 8px, 100% 18px; background-repeat:no-repeat; }
 @media (max-width: 1100px) {
     .fbody { grid-template-columns: 1fr 1fr; }
