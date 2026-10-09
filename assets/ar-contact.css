@@ -1,0 +1,17 @@
+/* Arabic overrides for contact.css */
+.chan small, .incl-box h3, .seg button, .cform label, .cform-head, .cform .hint, .etl b, .off small, .done .ref, .chan button { font-family: var(--sans); font-size: .88rem; font-weight: 400; }
+.chan:hover { transform: translateX(-6px); }
+.chan strong.ltr, .chan strong { text-align: right; }
+.chan strong.sans { font-weight: 400; font-size: 1.25rem; }
+.cform { box-shadow: -14px 14px 0 rgba(0,0,0,.28); }
+.seg button { border-right: 0; border-left: 1px solid var(--paper-line); text-align: right; font-size: .95rem; }
+.seg button:last-child { border-left: 0; }
+.seg button b { font-family: var(--mono); }
+.cform input[type=email], .cform input[type=tel] { direction: ltr; text-align: right; }
+.done h2, .etl h3, .off h3 { font-weight: 300; line-height: 1.4; }
+.etl li { padding: 44px 0 0 30px; }
+.etl li::before { left: auto; right: 0; }
+.etl h3 { font-weight: 400; font-size: 1.45rem; }
+.off h3 { font-size: 1.9rem; }
+.toast { font-family: var(--sans); }
+@media (max-width: 700px) { .seg button { border-left: 0; } }

@@ -1,0 +1,21 @@
+/* Arabic overrides for careers.css */
+.job summary span, .job-body h4, .open-count, .why-stats span, .form label, .form-head, .form .hint { font-family: var(--sans); font-size: .88rem; font-weight: 400; }
+.why-grid { box-shadow: -14px 14px 0 rgba(22,50,92,.14); }
+.why-item { border-right: 0; border-left: 1px solid var(--paper-line); }
+.why-item:last-child { border-left: 0; }
+.why-item h3 { font-weight: 400; line-height: 1.4; }
+.why-stats strong { font-weight: 300; }
+.job summary h3 { font-weight: 400; font-size: 1.6rem; line-height: 1.4; }
+.job summary { padding: 30px 0 30px 10px; }
+.job:hover summary { padding-left: 10px; padding-right: 14px; }
+.job-body { padding: 10px 84px 44px 40px; }
+.job-body li { font-size: 1.02rem; }
+.hsteps h3 { font-weight: 400; }
+.form { box-shadow: -14px 14px 0 rgba(0,0,0,.25); }
+.form input[type=email] { direction: ltr; text-align: right; }
+.toast { font-family: var(--sans); }
+@media (max-width: 1100px) {
+    .why-item, .why-item:last-child { border-left: 0; border-bottom: 1px solid var(--paper-line); }
+    .job-body { padding: 10px 0 36px 0; }
+    .job:hover summary { padding-right: 0; padding-left: 0; }
+}

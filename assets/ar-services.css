@@ -1,0 +1,27 @@
+/* Arabic overrides for services.css */
+.crumb, .ph-meta, .subnav a, .dwg-head, .dwg-foot small, .use small, .report-head, .report-foot, .report i, .steps b, .om-points b, .incl li::before { font-family: var(--sans); font-size: .88rem; }
+.dwg-head span, .report-head span:first-child { font-family: var(--sans); }
+.dwg-head span:last-child, .dwg-head span:first-child { font-family: var(--mono); }
+.page-hero h1 { font-weight: 300; line-height: 1.25; font-size: clamp(2.6rem, 5.6vw, 5rem); }
+.subnav a { padding: 18px 0 18px 26px; margin-right: 0; margin-left: 26px; }
+.dwg { box-shadow: -14px 14px 0 rgba(0,0,0,.22); }
+.lt .dwg { box-shadow: -14px 14px 0 rgba(22,50,92,.14); }
+.dwg:hover { transform: translate(4px,-4px); }
+.dwg-foot div { border-right: 0; border-left: 1px solid var(--paper-line); }
+.dwg-foot div:last-child { border-left: 0; }
+.dwg-foot { font-size: .9rem; }
+.dwg-foot small { font-size: .75rem; }
+.title { line-height: 1.35; }
+.lead { font-size: 1.12rem; }
+.report { box-shadow: -14px 14px 0 rgba(0,0,0,.25); }
+.report td:last-child { text-align: left; }
+.report td { font-size: 1rem; }
+.report-foot strong { font-family: var(--sans); font-weight: 500; }
+.steps li { padding: 46px 0 0 28px; }
+.steps li::before { left: auto; right: 0; }
+.steps h3 { font-weight: 400; font-size: 1.5rem; }
+.om-points b { font-weight: 500; font-size: 1.1rem; }
+.incl li::before { content: '+ '; font-family: var(--mono); }
+.incl li { font-size: 1rem; }
+.dwg-foot div strong, .dwg-foot div { font-weight: 500; }
+@media (max-width: 1100px) { .dwg-foot div { border-left: 1px solid var(--paper-line); } }

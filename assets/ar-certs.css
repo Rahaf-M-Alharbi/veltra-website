@@ -1,0 +1,25 @@
+/* Arabic overrides for certs.css */
+.grade-head, .grade-main small, .grade-foot small, .legend, .cc dt, .status, .cc .side button.txt, .note, .vsteps b, .pack-head, .pack li span, .ladder div span {
+    font-family: var(--sans); font-size: .88rem; font-weight: 400;
+}
+.grade-head span:last-child, .cc dd.ltr, .ladder div span, .vsteps b { font-family: var(--mono); }
+.grade { box-shadow: -14px 14px 0 rgba(22,50,92,.14); }
+.grade-main strong { font-weight: 500; }
+.grade-main .g { font-weight: 300; }
+.grade-foot div { border-right: 0; border-left: 1px solid var(--paper-line); }
+.grade-foot div:last-child { border-left: 0; }
+.grade-foot div { font-family: var(--sans); }
+.grade-foot div.ltr-val { font-family: var(--mono); }
+.cc::before { left: auto; right: 0; }
+.cc:hover { transform: translateX(-6px); }
+.doc { box-shadow: -6px 6px 0 rgba(0,0,0,.28); }
+.cc:hover .doc { transform: rotate(3deg) translateY(-4px); }
+.cc h3 { font-weight: 400; font-size: 1.6rem; line-height: 1.4; }
+.cc dd { font-family: var(--sans); font-size: .98rem; }
+.cc dd.ltr { font-family: var(--mono); font-size: .92rem; }
+.cc .role { font-size: 1.02rem; }
+.note { line-height: 1.8; font-size: .9rem; }
+.pack { box-shadow: -14px 14px 0 rgba(0,0,0,.25); }
+.pack li { font-size: 1.05rem; }
+.vsteps h3 { font-weight: 400; font-size: 1.35rem; }
+.toast { font-family: var(--sans); }

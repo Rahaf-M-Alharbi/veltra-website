@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project | Veltra MEP Contracting</title>
+<meta name="description" content="Project detail: scope of work, key figures and delivery notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500&family=JetBrains+Mono:wght@300;400&family=Noto+Sans+Arabic:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/projects.css">
+</head>
+<body data-page="projects">
+<header>
+    <a href="index.html" class="logo" aria-label="Veltra MEP Contracting, home">VELTRA<small>MEP CONTRACTING</small></a>
+    <nav aria-label="Primary">
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <div class="more">
+            <button type="button" aria-expanded="false" aria-haspopup="true">More<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1,1 L5,5 L9,1"/></svg></button>
+            <div class="menu" role="menu">
+                <a href="certifications.html" role="menuitem"><span>Certifications</span><small>SCA grade, ISO certificates</small></a>
+                <a href="careers.html" role="menuitem"><span>Careers</span><small>Open positions</small></a>
+                <a href="contact.html" role="menuitem"><span>Contact</span><small>Tender desk and office</small></a>
+                <a href="#" data-profile role="menuitem"><span>Company profile</span><small>Download PDF</small></a>
+            </div>
+        </div>
+    </nav>
+    <div class="h-actions">
+        <a href="ar/project.html" class="lang" lang="ar" hreflang="ar">العربية</a>
+        <a href="contact.html" class="btn fill">Request a quotation</a>
+        <button type="button" class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+</header>
+<div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="about.html">About</a>
+    <a href="certifications.html">Certifications</a><a href="careers.html">Careers</a><a href="contact.html">Contact</a>
+    <div class="mm-foot"><a href="contact.html" class="btn fill">Request a quotation</a><a href="ar/project.html" class="lang" lang="ar" hreflang="ar">العربية</a></div>
+</div>
+<main>
+    <div class="crumb" style="padding:40px var(--pad) 0;margin:0"><a href="index.html">Home</a> / <a href="projects.html">Projects</a> / <span id="crumb-name"></span></div>
+    <div id="detail"></div>
+    <section class="cta">
+        <div class="cta-main rv">
+            <div class="tag">Tender desk</div>
+            <h2>Preparing a project or <em>vendor prequalification?</em></h2>
+            <p>Send us the scope of work, and our tendering team will contact you within two working days.</p>
+            <div class="btns">
+                <a href="contact.html" class="btn fill">Request a quotation</a>
+                <a href="#" data-profile class="btn">Download company profile</a>
+            </div>
+        </div>
+        <aside class="sheet rv" aria-label="What to send with your request">
+            <div class="sheet-head"><span>Request sheet</span><span>Rev. R2</span></div>
+            <ol>
+                <li><b>01</b><div><strong>Scope of work</strong><small>Disciplines and building type</small></div><span class="box"></span></li>
+                <li><b>02</b><div><strong>Drawings &amp; BOQ</strong><small>PDF or CAD, as available</small></div><span class="box"></span></li>
+                <li><b>03</b><div><strong>Specifications</strong><small>Client or consultant requirements</small></div><span class="box"></span></li>
+                <li><b>04</b><div><strong>Submission deadline</strong><small>So we can plan the review</small></div><span class="box"></span></li>
+            </ol>
+            <div class="sheet-foot"><span>We reply within</span><strong>2 working days</strong></div>
+        </aside>
+    </section>
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/projects-data.js"></script>
+<script src="assets/project-art.js"></script>
+<script src="assets/footer.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/projects.js"></script>
+</body>
+</html>
