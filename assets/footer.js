@@ -10,8 +10,8 @@
         sv: ['التكييف والتهوية', 'الأعمال الكهربائية', 'السباكة والصرف', 'مكافحة الحريق', 'التشغيل والصيانة'],
         co: ['من نحن', 'المشاريع', 'الشهادات والتصنيف', 'الوظائف', 'تواصل معنا'],
         wa: 'واتساب', mail: 'البريد الإلكتروني', addr: 'حي العليا، الرياض', cta: 'اطلب عرض سعر',
-        copy: '© 2026 فيلترا للمقاولات الكهروميكانيكية', meta: 'المقياس 1:100 · الإصدار 2', lang: 'English',
-        note: 'مشروع تصوّري: فيلترا شركة افتراضية وكل الأرقام توضيحية.', credit: 'تصميم وكتابة: رهف الحربي', top: 'أعلى الصفحة'
+        copy: '© 2026 فيلترا للمقاولات الكهروميكانيكية', lang: 'English',
+        top: 'أعلى الصفحة'
     } : {
         brand: 'VELTRA', sub: 'MEP CONTRACTING',
         about: 'HVAC, electrical, plumbing and firefighting for government, commercial and healthcare projects across Saudi Arabia since 2013.',
@@ -19,8 +19,8 @@
         sv: ['HVAC', 'Electrical', 'Plumbing & drainage', 'Firefighting', 'Operation & maintenance'],
         co: ['About', 'Projects', 'Certifications', 'Careers', 'Contact'],
         wa: 'WhatsApp', mail: 'Email', addr: 'Al Olaya, Riyadh', cta: 'Request a quotation',
-        copy: '© 2026 Veltra MEP Contracting', meta: 'Scale 1:100 · Rev. R2', lang: 'العربية',
-        note: 'Self-initiated concept: Veltra is fictional and all figures are illustrative.', credit: 'Design & copy: Rahaf Alharbi', top: 'Back to top'
+        copy: '© 2026 Veltra MEP Contracting', lang: 'العربية',
+        top: 'Back to top'
     };
     const svId = ['hvac', 'electrical', 'plumbing', 'fire', 'om'];
     const coHref = ['about.html', 'projects.html', 'certifications.html', 'careers.html', 'contact.html'];
